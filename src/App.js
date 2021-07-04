@@ -4,7 +4,6 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
 import 'firebase/analytics';
-
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 
@@ -31,7 +30,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>⚛️🔥💬</h1>
+        <h1>Chat App</h1>
         <SignOut />
       </header>
 
@@ -110,7 +109,7 @@ function ChatRoom() {
 function ChatMessage(props) {
   const { text, uid, photoURL} = props.message;
 
-  const messageClass = uid === auth.currentUser.uid ? 'sent' : 'recieved'
+  const messageClass = uid === auth.currentUser.uid ? 'sent' : 'received'
 
 
 

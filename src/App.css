@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
 body {
     background-color: #282c34;
   }
@@ -30,7 +31,7 @@ body {
     flex-direction: column;
     justify-content: center;
     min-height: 100vh;
-    background-color: rgb(40, 37, 53);
+    background-color: #9AECDB      
   }
   
   main {
@@ -101,10 +102,11 @@ body {
   
   
   .sign-in {
-    color: #282c34;
+    color: black;
     background: white;
     max-width: 400px;
     margin: 0 auto;
+    font-family: 'Otomanopee One', sans-serif;
   }
   
   
@@ -138,12 +140,16 @@ body {
   
   .sent p {
     color: white;
-    background: #0b93f6;
+    background: #6c5ce7;
     align-self: flex-end;
+    box-shadow: 1px 3px #006266;
+    font-family: 'Otomanopee One', sans-serif;
   }
   .received p {
-    background: #00cec9;
+    background: #F97F51;
     color: black;
+    box-shadow: 1px 3px #EE5A24;
+    font-family: 'Otomanopee One', sans-serif;
   }
   
   img {
