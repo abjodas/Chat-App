@@ -55,7 +55,7 @@ body {
   }
   
   form {
-    height: 10vh;
+    height: 8vh;
     position: fixed;
     bottom: 0;
     background-color: rgb(24, 23, 23);
@@ -142,7 +142,7 @@ body {
     align-self: flex-end;
   }
   .received p {
-    background: #e5e5ea;
+    background: #00cec9;
     color: black;
   }
   
